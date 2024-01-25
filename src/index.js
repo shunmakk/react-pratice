@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Myhello from './components/Myhello';
 import EventBasic from './components/EventBasic';
+import StateBasic from './components/StateBasic';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,8 @@ root.render(
     <App />
     <Myhello myName="お馬鹿" />
     <EventBasic  type="time"/>
+    <StateBasic init={0} />
+    
   </React.StrictMode>
 );
 
