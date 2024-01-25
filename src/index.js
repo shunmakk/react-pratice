@@ -6,16 +6,29 @@ import reportWebVitals from './reportWebVitals';
 import Myhello from './components/Myhello';
 import EventBasic from './components/EventBasic';
 import StateBasic from './components/StateBasic';
+import ForList from './components/ForList';
+import book from './book';
+import ForNest from './components/ForNest';
+import ForFilter from './components/ForFilter';
+
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className='all'>
     <App />
     <Myhello myName="お馬鹿" />
     <EventBasic  type="time"/>
     <StateBasic init={0} />
+    <ForList src={book}/>
+    <ForNest src={book}/>
+    <ForFilter src={book}/>
     
+    </div>
   </React.StrictMode>
 );
 
