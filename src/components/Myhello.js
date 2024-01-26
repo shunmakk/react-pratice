@@ -6,4 +6,4 @@ const Myhello = ({myName}) => {
   )
 }
 
-export default Myhello
+export default Myhello;

@@ -10,7 +10,10 @@ import ForList from './components/ForList';
 import book from './book';
 import ForNest from './components/ForNest';
 import ForFilter from './components/ForFilter';
-
+import SelectStyle from './components/SelectStyle';
+import StylePanel from './components/StylePanel';
+import TitlePanel from './components/TitlePanel';
+import ListTempalte from './components/ListTempalte';
 
 
 
@@ -27,6 +30,28 @@ root.render(
     <ForList src={book}/>
     <ForNest src={book}/>
     <ForFilter src={book}/>
+    <SelectStyle mode="dark"/>
+    <StylePanel>
+      <p>メンバー募集中！</p>
+      <p>ようこそReact App 開発プロジェクトへ</p>
+      <Myhello myName="お馬鹿" />
+    </StylePanel>
+    <TitlePanel> 
+    <p key='title'>新卒メンバー募集中！</p>
+    <p key='body'>初任給400万~  年間休日125日以上</p>
+    </TitlePanel>
+  
+    <ListTempalte src={book}>
+      {elem => (<>
+        <dt>
+       <a href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`} >
+      {elem.title}({elem.price})
+      </a>
+      </dt>
+       <dd>{elem.summary}</dd>
+      </>)}
+
+    </ListTempalte>
     
     </div>
   </React.StrictMode>
