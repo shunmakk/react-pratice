@@ -14,6 +14,7 @@ import SelectStyle from './components/SelectStyle';
 import StylePanel from './components/StylePanel';
 import TitlePanel from './components/TitlePanel';
 import ListTempalte from './components/ListTempalte';
+import StateParent from './components/StateParent';
 
 
 
@@ -52,6 +53,8 @@ root.render(
       </>)}
 
     </ListTempalte>
+
+    <StateParent />
     
     </div>
   </React.StrictMode>
