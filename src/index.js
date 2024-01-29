@@ -18,6 +18,8 @@ import StateParent from './components/StateParent';
 import EventMouse from './components/EventMouse';
 import EventCompare from './components/EventCompare';
 import EventError from './components/EventError';
+import EventObj from './components/EventObj';
+import EventPoint from './components/EventPoint';
 
 
 
@@ -62,6 +64,8 @@ root.render(
 
     <EventCompare/>
     <EventError src="./image/winga.jpg" alt="サンプル画像"/>
+    <EventObj/>
+    <EventPoint/>
   
     </div>
   </React.StrictMode>
