@@ -20,6 +20,7 @@ import EventCompare from './components/EventCompare';
 import EventError from './components/EventError';
 import EventObj from './components/EventObj';
 import EventPoint from './components/EventPoint';
+import EventKey from './components/EventKey';
 
 
 
@@ -66,6 +67,7 @@ root.render(
     <EventError src="./image/winga.jpg" alt="サンプル画像"/>
     <EventObj/>
     <EventPoint/>
+    <EventKey/>
   
     </div>
   </React.StrictMode>
