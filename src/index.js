@@ -16,6 +16,7 @@ import TitlePanel from './components/TitlePanel';
 import ListTempalte from './components/ListTempalte';
 import StateParent from './components/StateParent';
 import EventMouse from './components/EventMouse';
+import EventCompare from './components/EventCompare';
 
 
 
@@ -57,6 +58,8 @@ root.render(
     <StateParent />
 
     <EventMouse  alt="ロゴ画像" beforeSrc="https://img.gamewith.jp/img/9f6cb05905741743c5e25150db77bcdc.png" afterSrc="https://img.gamewith.jp/img/a315f9680b30183bd5b09fd8e3a10fc9.png"/>
+
+    <EventCompare/>
     </div>
   </React.StrictMode>
 
