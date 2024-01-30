@@ -21,6 +21,10 @@ import EventError from './components/EventError';
 import EventObj from './components/EventObj';
 import EventPoint from './components/EventPoint';
 import EventKey from './components/EventKey';
+import EventArgs from './components/EventArgs';
+import EventArgs2 from './components/EventArgs2';
+import EventPropagation from './components/EventPropagation';
+import EventOnce from './components/EventOnce';
 
 
 
@@ -68,7 +72,10 @@ root.render(
     <EventObj/>
     <EventPoint/>
     <EventKey/>
-  
+    <EventArgs/>
+    <EventArgs2/>
+    <EventPropagation/>
+    <EventOnce/>
     </div>
   </React.StrictMode>
 
