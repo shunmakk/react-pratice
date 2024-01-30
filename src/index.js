@@ -25,6 +25,7 @@ import EventArgs from './components/EventArgs';
 import EventArgs2 from './components/EventArgs2';
 import EventPropagation from './components/EventPropagation';
 import EventOnce from './components/EventOnce';
+import EventPassive from './components/EventPassive';
 
 
 
@@ -76,6 +77,7 @@ root.render(
     <EventArgs2/>
     <EventPropagation/>
     <EventOnce/>
+    <EventPassive/>
     </div>
   </React.StrictMode>
 
